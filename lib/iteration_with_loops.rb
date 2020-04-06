@@ -17,7 +17,7 @@ def find_min_in_nested_arrays(src)
   while array_i < src.count do
     element_i = 0
     while element_i < src[array_i].count do
-      if src[array_i][element_i] == src[array_i][element_i].min
+      if src[array_i][element_i] == src[array_i].min
         printed_minimums << src[array_i][element_i]
       end
       element_i += 1
